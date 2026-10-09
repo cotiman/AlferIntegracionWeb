@@ -1,0 +1,65 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Cotiman\\source\\repos\\MySqlWooSyncApp\\MySqlWooSyncApp\\MySqlWooSyncApp.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Cotiman\\source\\repos\\MySqlWooSyncApp\\MySqlWooSyncApp\\MySqlWooSyncApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Cotiman\\source\\repos\\MySqlWooSyncApp\\MySqlWooSyncApp\\MySqlWooSyncApp.csproj",
+        "projectName": "MySqlWooSyncApp",
+        "projectPath": "C:\\Users\\Cotiman\\source\\repos\\MySqlWooSyncApp\\MySqlWooSyncApp\\MySqlWooSyncApp.csproj",
+        "packagesPath": "C:\\Users\\Cotiman\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Cotiman\\source\\repos\\MySqlWooSyncApp\\MySqlWooSyncApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\Cotiman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "WooCommerceNET": {
+              "target": "Package",
+              "version": "[0.8.6, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

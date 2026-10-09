@@ -1,0 +1,13 @@
+{
+  "MySqlHost": "alfer.zapto.org",
+  "MySqlPort": 63306,
+  "MySqlDatabase": "alferep",
+  "MySqlUser": "ecommerce",
+  "MySqlPassword": "Palombo",
+  "MySqlQuery": "select art.ArticuloID, cat.ArticuloCategoriaNombre as ArticuloTitulo, art.ArticuloNombre, stock.ArticuloStockActual, stock.ArticuloStockPrecio from articulo art inner join articulostock stock on stock.ArticuloID = art.ArticuloID  inner join articulocategoria cat on cat.ArticuloCategoriaID = art.ArticuloCategoriaID where sucursalid = 4 and articulostockprecio <> 0 and stock.ArticuloStockActual <> 0 order by art.articuloid",
+  "SyncIntervalMinutes": 10,
+  "WooUrl": "https://alferepuestos.com.uy/",
+  "WooKey": "ck_ce8792fa7559146c5428d74586e773a74a7762eb",
+  "WooSecret": "cs_418c5b35b2efa2638e5bdac6fd267b96a40023ca",
+  "RequestTimeoutSeconds": 120
+}
